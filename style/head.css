@@ -1,0 +1,261 @@
+P{
+  font-size: medium;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.side-bar-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgb(246, 248, 249);
+  padding: 10px;
+  top: 80px;
+  bottom: 0;
+  width: 80px;
+  left: 0px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: rgb(220, 233, 248);
+
+}
+.side-bar-box-div {
+  display: flex;
+  height: 106px;
+  background-color: rgb(246, 240, 240);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+  
+
+
+}
+.side-bar-box-div img {
+  width: 90%;
+  
+}
+.side-bar-box-div div {
+  font-size: 12px;
+  margin: 0px;
+  font-weight:bolder;
+}
+
+.side-bar-box-div:hover {
+  background-color: rgb(224, 212, 212);
+  border-radius: 6px;
+  color: red;
+  cursor: pointer;
+}
+
+.head-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 30px;
+  position: fixed;
+  background-color: rgb(246, 248, 249);
+  padding: 10px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 60px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(220, 233, 248);
+
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 7px;
+ 
+}
+
+.youtubelogo-img {
+  height: 35px;
+  margin-left: 10px;
+  padding-right: 5px;
+
+} 
+
+.youtubelogo-img:hover {
+  cursor: pointer;
+  
+
+} 
+
+.threebar-div {
+  flex: 60px;
+  margin-left: 12px;;
+
+}
+
+.threebar-img {
+  width: 35px;
+  padding: 5px;
+  
+  
+}
+
+.threebar-img:hover {
+  cursor: pointer;
+  background-color: rgb(241, 209, 209);
+  border-radius: 20px;
+
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  flex-basis: 300px; /* Default width */
+  min-width: 200px; /* Prevent shrinking */
+  max-width: 400px; /* Limit growth */
+  flex-shrink: 0;
+  margin-right: 50px;
+  
+}
+
+.search-div {
+  height: 100%;
+  flex:1;
+  display: flex;
+  align-items: center;
+  
+}
+
+.search-input {
+  width: 200%;
+  height: 100%;
+  border-radius: 2px;
+  border:solid 1px black;
+  font-size: larger;
+  padding-left: 20px;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.05);
+ 
+} 
+
+.search-icon-button {
+  height: 109%;
+  margin-left: -18px;
+  background-color: rgb(160, 144, 144);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border:solid 1px black;
+}
+
+.search-icon-button:hover {
+  background-color: rgb(241, 209, 209);
+
+}
+
+.search-icon-img {
+  height: 100%;
+  padding: 3px;
+ 
+}
+
+.search-icon-img:hover {
+  cursor: pointer;
+  
+}
+
+
+.voice-search-button {
+  margin-left: 5px;
+  height: 100%;
+  border:solid 1px black;
+  border-radius: 32px;
+  
+}
+
+.voice-search-button:hover {
+  background-color: rgb(241, 209, 209);
+
+}
+
+.voice-search-img {
+  margin-top: 3px;
+  height: 80%;
+
+}
+
+.voice-search-img:hover {
+ background-color: rgb(241, 209, 209);
+ border-radius: 20px;
+
+}
+
+.right-section {
+  width:250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.right-section-div {
+  display: flex;
+}
+
+.upload-img {
+  height: 100%;
+  border-radius: 25px;
+  padding:2px;
+
+}
+
+.upload-img:hover {
+  cursor: pointer;
+  background-color: rgb(241, 209, 209);
+
+}
+
+.youtubeapps-img {
+  height: 100%;
+  border-radius: 25px;
+  padding:2px;
+  
+}
+
+.youtubeapps-img:hover {
+  background-color: rgb(241, 209, 209);
+  cursor: pointer;
+}
+
+.notifications-img {
+  height: 100%;
+  border-radius: 25px;
+  padding:2px;
+}
+
+.notifications-img:hover {
+  background-color: rgb(241, 209, 209);
+  cursor: pointer;
+}
+
+.mychannel-img {
+  height: 100%;
+  border-radius: 25px;
+  padding:2px;
+}
+
+.mychannel-img:hover {
+  cursor: pointer;
+}
+
+
+  
+
